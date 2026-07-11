@@ -17,3 +17,10 @@
 arXiv论文，
 
 ◼ 不要仅仅去看一些公众号、知乎、中文博客
+
+## 当前进展
+
+| 选题 | 路径 | 状态 |
+|------|------|------|
+| 计算机视觉中的机器遗忘 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | Markdown 初稿 |
+| 核心参考文献 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
