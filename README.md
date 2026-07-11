@@ -22,5 +22,6 @@ arXiv论文，
 
 | 选题 | 路径 | 状态 |
 |------|------|------|
-| 计算机视觉中的机器遗忘 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | Markdown 初稿 |
+| 计算机视觉中的机器遗忘（中文综述） | [`topics/machine-unlearning-cv/survey_zh.md`](topics/machine-unlearning-cv/survey_zh.md) | **中文 Markdown 工作稿** |
 | 核心参考文献 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
+| 英文版 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | 转 LaTeX 时再撰写 |
