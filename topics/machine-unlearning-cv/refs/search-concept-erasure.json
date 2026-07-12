@@ -1,0 +1,458 @@
+[
+  {
+    "title": "Privacy-Diffusion: Privacy-Preserving Stable Diffusion Without FHE and Differential Privacy",
+    "authors": [
+      "Po-Chu Hsu",
+      "Ziying Yu",
+      "Shuhei Mise",
+      "Hideaki Miyaji"
+    ],
+    "year": 2025,
+    "journal": "IEEE Access",
+    "doi": "10.1109/access.2025.3562563",
+    "abstract": null,
+    "citations": 4,
+    "url": "https://doi.org/10.1109/access.2025.3562563",
+    "_source": "crossref"
+  },
+  {
+    "title": "The Comparison of the Effectiveness and Efficiency of Fine-Tuning Models on Stable Diffusion in Creating Concept Art",
+    "authors": [
+      "Abdul Bilal Qowy",
+      "Ahmad Nur Ihsan",
+      "Sri Hartati"
+    ],
+    "year": 2024,
+    "journal": "JURNAL TEKNIK INFORMATIKA",
+    "doi": "10.15408/jti.v17i1.37942",
+    "abstract": "<jats:p>This research aims to overcome the limitations of the Stable Diffusion model in creating conceptual works of art, focusing on problem identification, research objectives, methodology and research results. Even though Stable Diffusion has been recognized as the best model, especially in the context of creating conceptual artwork, there is still a need to simplify the process of creating concept art and find the most suitable generative model. This research used three methods: Latent Diffusion Model, Dreambooth: fine-tuning Model, and Stable Diffusion. The research results show that the Dreambooth model produces a more real and realistic painting style, while Textual Inversion tends towards a fantasy and cartoonist style. Although the effectiveness of both is relatively high, with minimal differences, the Dreambooth model is proven to be more effective based on the consistency of FID, PSNR, and visual perception scores. The Dreambooth model is more efficient in training time, even though it requires more memory, while the inference time for both is relatively similar. This research makes a significant contribution to the development of artificial intelligence in the creative industries, opens up opportunities to improve the use of generative models in creating conceptual works of art, and can potentially drive positive change in the use of artificial intelligence in the creative industries more broadly. </jats:p>",
+    "citations": 2,
+    "url": "https://doi.org/10.15408/jti.v17i1.37942",
+    "_source": "crossref"
+  },
+  {
+    "title": "Mass Concept Erasure in Diffusion Models with Concept Hierarchy",
+    "authors": [
+      "Jiahang Tu",
+      "Ye Li",
+      "Yiming Wu",
+      "Hanbin Zhao",
+      "Chao Zhang",
+      "Hui Qian"
+    ],
+    "year": 2026,
+    "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v40i12.37920",
+    "abstract": "<jats:p>The success of diffusion models has raised concerns about the generation of unsafe or harmful content, prompting concept erasure approaches that fine-tune modules to suppress specific concepts while preserving general generative capabilities. However, as the number of erased concepts grows, these methods often become inefficient and ineffective, since each concept requires a separate set of fine-tuned parameters and may degrade the overall generation quality. In this work, we propose a supertype-subtype concept hierarchy that organizes erased concepts into a parent–child structure. Each erased concept is treated as a child node, and semantically related concepts (e.g., macaw, and bald eagle) are grouped under a shared parent node, referred to as a supertype concept (e.g., bird). Rather than erasing concepts individually, we introduce an effective and efficient group-wise suppression method, where semantically similar concepts are grouped and erased jointly by sharing a single set of learnable parameters. During the erasure phase, standard diffusion regularization is applied to preserve denoising process in unmasked regions. To mitigate the degradation of supertype generation caused by excessive erasure of semantically related subtypes, we propose a novel method called Supertype-Preserving Low-Rank Adaptation (SuPLoRA), which encodes the supertype concept information in the frozen down-projection matrix and updates only the up-projection matrix during erasure. Theoretical analysis demonstrates the effectiveness of SuPLoRA in mitigating generation performance degradation. We construct a more challenging benchmark that requires simultaneous erasure of concepts across diverse domains, including celebrities, objects, and pornographic content. Comprehensive experiments demonstrate that our method achieves a superior balance between effective multi-concept erasure and the preservation of desirable generative performance.</jats:p>",
+    "citations": 1,
+    "url": "https://doi.org/10.1609/aaai.v40i12.37920",
+    "_source": "crossref"
+  },
+  {
+    "title": "Creación de ambientes para niveles de videojuegos utilizando Stable Diffusion",
+    "authors": [
+      "Pedro Meira-Rodríguez"
+    ],
+    "year": 2025,
+    "journal": "European Public &amp; Social Innovation Review",
+    "doi": "10.31637/epsir-2025-1354",
+    "abstract": "<jats:p>Introducción: Este estudio explora la optimización de tiempos en desarrollo de videojuegos, evaluando la capacidad del modelo de Stable Diffusion para apoyar en la ambientación de niveles o set dressing. Metodología: Para ello se realiza un estudio comparativo que parte de tres imágenes del mismo entorno tridimensional, realizando solicitudes iterativas en Stable Diffusion XL con las extensiones de ControlNet, ConfyUI y un LoRA para unificar el estilo. Resultados: La evaluación de la creatividad formal, el apego al diseño espacial y la definición de detalles permitió obtener puntuaciones medias por indicación. Discusión: Se evidenció que el uso de variables y pesos específicos genera imágenes con cualidades predecibles, confirmando la correlación directa entre parámetros de entrada y resultados. Conclusiones: Se destacó la necesidad de controlar con precisión estas variables y se subrayó la utilidad de las herramientas de IA, aunque se recomienda definir una ruta de uso para su integración efectiva en la producción de videojuegos.</jats:p>",
+    "citations": 1,
+    "url": "https://doi.org/10.31637/epsir-2025-1354",
+    "_source": "crossref"
+  },
+  {
+    "title": "ConceptVoid: Precision Multi-Concept Erasure in Generative Video Diffusion",
+    "authors": [
+      "Zhongbin Huang",
+      "Xingjia Jin",
+      "Cunkang Wu",
+      "Wei Mao"
+    ],
+    "year": 2025,
+    "journal": "Mathematics",
+    "doi": "10.3390/math13162652",
+    "abstract": "<jats:p>Generative video diffusion models (GVDs) generate high-fidelity, text-conditioned videos but risk producing unsafe or copyrighted content due to training on large, uncurated datasets. Concept erasure techniques aim to remove such harmful concepts from pre-trained models while preserving overall generative performance. However, existing methods mainly target single-concept erasure and thus cannot satisfy the demand for simultaneously eliminating multi-concept in real-world scenarios. On the one hand, naively applying single-concept erasure sequentially to multi-concept often yields suboptimal results due to conflicts among target concepts; on the other hand, methods that alter concept mappings exhibit very poor adaptability and fail to accommodate the dynamic concept changes. To address these, we propose ConceptVoid, a scalable multi-concept erasure framework formulated as a constrained multi-objective optimization problem. For each target concept, an erasure loss is defined as the discrepancy between noise predictions conditioned and unconditioned on the concept. Non-target generation capabilities are preserved via output-distribution alignment regularization. We apply the multiple gradient descent algorithm (MGDA) to obtain Pareto-optimal solutions, aiming to minimize conflicts among different concept erasure objectives. In addition, we improve MGDA by introducing an importance-weighting mechanism, which adjusts the weights of gradients corresponding to each erasure objective, enabling flexible control over the priority and intensity of erasing different concepts, thereby enhancing the scalability of ConceptVoid. Extensive experiments demonstrate the effectiveness of ConceptVoid, validating our key contributions: (1) a scalable framework for multi-concept erasure in GVDs; (2) the integration of per-concept erasure with distribution alignment to retain non-target quality; and (3) an enhanced MGDA for conflict-aware, controllable erasure.</jats:p>",
+    "citations": 0,
+    "url": "https://doi.org/10.3390/math13162652",
+    "_source": "crossref"
+  },
+  {
+    "title": "Dual-path consistency constrained concept erasure for text-to-image diffusion models",
+    "authors": [
+      "Xiaoran Bai",
+      "Dan Song",
+      "Peng Sun",
+      "Shuangyan Yue"
+    ],
+    "year": 2026,
+    "journal": "Multimedia Systems",
+    "doi": "10.1007/s00530-025-02168-8",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1007/s00530-025-02168-8",
+    "_source": "crossref"
+  },
+  {
+    "title": "ShallowUnlearn: Rethinking concept unlearning through disentangled component-level erasure in text-guided diffusion models",
+    "authors": [
+      "Mengnan Zhao",
+      "Tianhang Zheng",
+      "Bo Wang",
+      "Lihe Zhang",
+      "Baocai Yin"
+    ],
+    "year": 2026,
+    "journal": "SCIENTIA SINICA Informationis",
+    "doi": "10.1360/ssi-2025-0408",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1360/ssi-2025-0408",
+    "_source": "crossref"
+  },
+  {
+    "title": "Dark Miner: Towards combating residuals in concept erasure for text-to-image diffusion models",
+    "authors": [
+      "Zheling Meng",
+      "Bo Peng",
+      "Xiaochuan Jin",
+      "Yue Jiang",
+      "Wei Wang",
+      "Jing Dong",
+      "Tieniu Tan"
+    ],
+    "year": 2026,
+    "journal": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2026.133228",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/j.neucom.2026.133228",
+    "_source": "crossref"
+  },
+  {
+    "title": "Circular Economy – an introduction to a challenging concept",
+    "authors": [
+      "Hans Wiesmeth"
+    ],
+    "year": 2023,
+    "journal": "Diffusion Fundamentals",
+    "doi": "10.62721/diffusion-fundamentals.37.1240",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.62721/diffusion-fundamentals.37.1240",
+    "_source": "crossref"
+  },
+  {
+    "title": "AI Painting Method Based on Stable-Diffusion",
+    "authors": [
+      "昕哲 冉"
+    ],
+    "year": 2024,
+    "journal": "Computer Science and Application",
+    "doi": "10.12677/csa.2024.145123",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.12677/csa.2024.145123",
+    "_source": "crossref"
+  },
+  {
+    "title": "Stable Diffusion-Based Approach for Generating Intangible Cultural Heritage Images",
+    "authors": [
+      "Yaner Liang",
+      "Sang-Guk Lim"
+    ],
+    "year": 2025,
+    "journal": "Journal of Korea Multimedia Society",
+    "doi": "10.9717/kmms.2025.28.7.825",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.9717/kmms.2025.28.7.825",
+    "_source": "crossref"
+  },
+  {
+    "title": "Prompt Engineering for Mitigating Object Count Mismatch in Stable Diffusion Model",
+    "authors": [
+      "Jun Heo",
+      "Kyupil Yeon"
+    ],
+    "year": 2026,
+    "journal": "Journal of The Korean Data Analysis Society",
+    "doi": "10.37727/jkdas.2026.28.2.575",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.37727/jkdas.2026.28.2.575",
+    "_source": "crossref"
+  },
+  {
+    "title": "CE-SDWV: Effective and Efficient Concept Erasure for Text-to-Image Diffusion Models via a Semantic-Driven Word Vocabulary",
+    "authors": [
+      "Jiahang Tu",
+      "Qian Feng",
+      "Jiahua Dong",
+      "Hanbin Zhao",
+      "Chao Zhang",
+      "Nicu Sebe",
+      "Hui Qian"
+    ],
+    "year": 2026,
+    "journal": "International Journal of Computer Vision",
+    "doi": "10.1007/s11263-026-02897-x",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1007/s11263-026-02897-x",
+    "_source": "crossref"
+  },
+  {
+    "title": "Visualizing the role of analytical diffusion models in AR--Focused analysis of the application of stable diffusion",
+    "authors": [
+      "Yizhi Zhang"
+    ],
+    "year": 2023,
+    "journal": "Applied and Computational Engineering",
+    "doi": "10.54254/2755-2721/18/20230963",
+    "abstract": "<jats:p>The article focuses on the application and development of the Stable Diffusion module in the field of artificial intelligence image generation. The article presents a comprehensive description, analysis and discussion of the module's overview, operating environment, usage methods and its instructions, and points out the corresponding advantages and disadvantages.</jats:p>",
+    "citations": 0,
+    "url": "https://doi.org/10.54254/2755-2721/18/20230963",
+    "_source": "crossref"
+  },
+  {
+    "title": "Generasi Desain Pakaian Muslimwear Berbasis Multimodal (Teks dan Gambar) Menggunakan Stable Diffusion v1.5",
+    "authors": [],
+    "year": 2026,
+    "journal": "Journal of Science, Technology, and Innovation",
+    "doi": "10.65310/abf5c845",
+    "abstract": "<jats:p>The rapid advancement of Generative Artificial Intelligence has accelerated the adoption of diffusion models in fashion design applications. However, conventional text-to-image approaches often encounter limitations in maintaining visual consistency and controllability during image generation. This study proposes a multimodal Muslimwear design generation system based on Stable Diffusion v1.5 by integrating textual prompts and reference images through a cross-attention fusion mechanism. The training dataset combines DeepFashion1 and a curated Muslimwear dataset, which were preprocessed through image normalization, resolution standardization, and automated caption generation using BLIP. Domain adaptation was performed using the Low-Rank Adaptation (LoRA) technique to enable computationally efficient fine-tuning. Performance evaluation employed Fréchet Inception Distance (FID) and Structural Similarity Index Measure (SSIM) to assess visual quality and structural consistency. Experimental results indicate that the female model achieved a FID score of 176.77 and an SSIM score of 0.311, outperforming the male model with a FID score of 256.22 and an SSIM score of 0.275. The findings demonstrate that multimodal conditioning enhances visual distribution learning and structural preservation, supporting the development of controllable and efficient AI-assisted fashion design systems.</jats:p>",
+    "citations": 0,
+    "url": "https://doi.org/10.65310/abf5c845",
+    "_source": "crossref"
+  },
+  {
+    "title": "Stable Diffusion Segmentation for Biomedical Images with Single-step Reverse Process",
+    "authors": [
+      "Tianyu Lin",
+      "Zhiguang Chen",
+      "Zhonghao Yan",
+      "Weijiang Yu",
+      "Fudan Zheng"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2406.18361v3",
+    "doi": null,
+    "abstract": "Diffusion models have demonstrated their effectiveness across various generative tasks. However, when applied to medical image segmentation, these models encounter several challenges, including significant resource and time requirements. They also necessitate a multi-step reverse process and multiple samples to produce reliable predictions. To address these challenges, we introduce the first latent diffusion segmentation model, named SDSeg, built upon stable diffusion (SD). SDSeg incorporates a straightforward latent estimation strategy to facilitate a single-step reverse process and utilizes latent fusion concatenation to remove the necessity for multiple samples. Extensive experiments indicate that SDSeg surpasses existing state-of-the-art methods on five benchmark datasets featuring diverse imaging modalities. Remarkably, SDSeg is capable of generating stable predictions with a solitary reverse step and sample, epitomizing the model's stability as implied by its name. The code is available at https://github.com/lin-tianyu/Stable-Diffusion-Seg",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2406.18361v3.pdf",
+    "url": "http://arxiv.org/abs/2406.18361v3",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Diffusion Policy Policy Optimization",
+    "authors": [
+      "Allen Z. Ren",
+      "Justin Lidard",
+      "Lars L. Ankile",
+      "Anthony Simeonov",
+      "Pulkit Agrawal",
+      "Anirudha Majumdar",
+      "Benjamin Burchfiel",
+      "Hongkai Dai",
+      "Max Simchowitz"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2409.00588v3",
+    "doi": null,
+    "abstract": "We introduce Diffusion Policy Policy Optimization, DPPO, an algorithmic framework including best practices for fine-tuning diffusion-based policies (e.g. Diffusion Policy) in continuous control and robot learning tasks using the policy gradient (PG) method from reinforcement learning (RL). PG methods are ubiquitous in training RL policies with other policy parameterizations; nevertheless, they had been conjectured to be less efficient for diffusion-based policies. Surprisingly, we show that DPPO achieves the strongest overall performance and efficiency for fine-tuning in common benchmarks compared to other RL methods for diffusion-based policies and also compared to PG fine-tuning of other policy parameterizations. Through experimental investigation, we find that DPPO takes advantage of unique synergies between RL fine-tuning and the diffusion parameterization, leading to structured and on-manifold exploration, stable training, and strong policy robustness. We further demonstrate the strengths of DPPO in a range of realistic settings, including simulated robotic tasks with pixel observations, and via zero-shot deployment of simulation-trained policies on robot hardware in a long-horizon, multi-stage manipulation task. Website with code: diffusion-ppo.github.io",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2409.00588v3.pdf",
+    "url": "http://arxiv.org/abs/2409.00588v3",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Erasing Undesirable Influence in Diffusion Models",
+    "authors": [
+      "Jing Wu",
+      "Trung Le",
+      "Munawar Hayat",
+      "Mehrtash Harandi"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2401.05779v4",
+    "doi": null,
+    "abstract": "Diffusion models are highly effective at generating high-quality images but pose risks, such as the unintentional generation of NSFW (not safe for work) content. Although various techniques have been proposed to mitigate unwanted influences in diffusion models while preserving overall performance, achieving a balance between these goals remains challenging. In this work, we introduce EraseDiff, an algorithm designed to preserve the utility of the diffusion model on retained data while removing the unwanted information associated with the data to be forgotten. Our approach formulates this task as a constrained optimization problem using the value function, resulting in a natural first-order algorithm for solving the optimization problem. By altering the generative process to deviate away from the ground-truth denoising trajectory, we update parameters for preservation while controlling constraint reduction to ensure effective erasure, striking an optimal trade-off. Extensive experiments and thorough comparisons with state-of-the-art algorithms demonstrate that EraseDiff effectively preserves the model's utility, efficacy, and efficiency.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2401.05779v4.pdf",
+    "url": "http://arxiv.org/abs/2401.05779v4",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Functional Diffusion",
+    "authors": [
+      "Biao Zhang",
+      "Peter Wonka"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2311.15435v1",
+    "doi": null,
+    "abstract": "We propose a new class of generative diffusion models, called functional diffusion. In contrast to previous work, functional diffusion works on samples that are represented by functions with a continuous domain. Functional diffusion can be seen as an extension of classical diffusion models to an infinite-dimensional domain. Functional diffusion is very versatile as images, videos, audio, 3D shapes, deformations, \\etc, can be handled by the same framework with minimal changes. In addition, functional diffusion is especially suited for irregular data or data defined in non-standard domains. In our work, we derive the necessary foundations for functional diffusion and propose a first implementation based on the transformer architecture. We show generative results on complicated signed distance functions and deformation functions defined on 3D surfaces.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2311.15435v1.pdf",
+    "url": "http://arxiv.org/abs/2311.15435v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "DIRE for Diffusion-Generated Image Detection",
+    "authors": [
+      "Zhendong Wang",
+      "Jianmin Bao",
+      "Wengang Zhou",
+      "Weilun Wang",
+      "Hezhen Hu",
+      "Hong Chen",
+      "Houqiang Li"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2303.09295v1",
+    "doi": null,
+    "abstract": "Diffusion models have shown remarkable success in visual synthesis, but have also raised concerns about potential abuse for malicious purposes. In this paper, we seek to build a detector for telling apart real images from diffusion-generated images. We find that existing detectors struggle to detect images generated by diffusion models, even if we include generated images from a specific diffusion model in their training data. To address this issue, we propose a novel image representation called DIffusion Reconstruction Error (DIRE), which measures the error between an input image and its reconstruction counterpart by a pre-trained diffusion model. We observe that diffusion-generated images can be approximately reconstructed by a diffusion model while real images cannot. It provides a hint that DIRE can serve as a bridge to distinguish generated and real images. DIRE provides an effective way to detect images generated by most diffusion models, and it is general for detecting generated images from unseen diffusion models and robust to various perturbations. Furthermore, we establish a comprehensive diffusion-generated benchmark including images generated by eight diffusion models to evaluate the performance of diffusion-generated image detectors. Extensive experiments on our collected benchmark demonstrate that DIRE exhibits superiority over previous generated-image detectors. The code and dataset are available at https://github.com/ZhendongWang6/DIRE.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2303.09295v1.pdf",
+    "url": "http://arxiv.org/abs/2303.09295v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Unified Discrete Diffusion for Categorical Data",
+    "authors": [
+      "Lingxiao Zhao",
+      "Xueying Ding",
+      "Lijun Yu",
+      "Leman Akoglu"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2402.03701v2",
+    "doi": null,
+    "abstract": "Discrete diffusion models have seen a surge of attention with applications on naturally discrete data such as language and graphs. Although discrete-time discrete diffusion has been established for a while, only recently Campbell et al. (2022) introduced the first framework for continuous-time discrete diffusion. However, their training and sampling processes differ significantly from the discrete-time version, necessitating nontrivial approximations for tractability. In this paper, we first present a series of mathematical simplifications of the variational lower bound that enable more accurate and easy-to-optimize training for discrete diffusion. In addition, we derive a simple formulation for backward denoising that enables exact and accelerated sampling, and importantly, an elegant unification of discrete-time and continuous-time discrete diffusion. Thanks to simpler analytical formulations, both forward and now also backward probabilities can flexibly accommodate any noise distribution, including different noise distributions for multi-element objects. Experiments show that our proposed USD3 (for Unified Simplified Discrete Denoising Diffusion) outperform all SOTA baselines on established datasets. We open-source our unified code at https://github.com/LingxiaoShawn/USD3.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2402.03701v2.pdf",
+    "url": "http://arxiv.org/abs/2402.03701v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Empty SPACE: Cross-Attention Sparsity for Concept Erasure in Diffusion Models",
+    "authors": [
+      "Nicola Novello",
+      "Andrea M. Tonello"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "arxiv": "2605.10198v1",
+    "doi": null,
+    "abstract": "Erasing specific concepts from text-to-image diffusion models is essential for avoiding the generation of copyrighted and explicit content. Closed-form concept erasure methods offer a fast alternative to backpropagation-based techniques, but they become less effective when scaling from smaller models such as Stable Diffusion 1.5 to larger models like Stable Diffusion XL. To maintain erasure effectiveness in these larger-scale architectures, we propose SParse cross-Attention-based Concept Erasure (SPACE). SPACE iteratively modifies the cross-attention parameters of a model with a closed-form update that jointly induces sparsity and erases target concepts. By concentrating the concept mapping to a lower-dimensional subspace, SPACE achieves superior erasure efficacy compared to dense baselines. Extensive experimental results show improvements in erasure effectiveness and robustness against adversarial prompts. Furthermore, SPACE achieves 80\\%-90\\% cross-attention sparsity, reducing the storage requirements for saving the modified parameters by 70\\%, demonstrating its memory efficiency.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2605.10198v1.pdf",
+    "url": "http://arxiv.org/abs/2605.10198v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Q-Diffusion: Quantizing Diffusion Models",
+    "authors": [
+      "Xiuyu Li",
+      "Yijiang Liu",
+      "Long Lian",
+      "Huanrui Yang",
+      "Zhen Dong",
+      "Daniel Kang",
+      "Shanghang Zhang",
+      "Kurt Keutzer"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2302.04304v3",
+    "doi": null,
+    "abstract": "Diffusion models have achieved great success in image synthesis through iterative noise estimation using deep neural networks. However, the slow inference, high memory consumption, and computation intensity of the noise estimation model hinder the efficient adoption of diffusion models. Although post-training quantization (PTQ) is considered a go-to compression method for other tasks, it does not work out-of-the-box on diffusion models. We propose a novel PTQ method specifically tailored towards the unique multi-timestep pipeline and model architecture of the diffusion models, which compresses the noise estimation network to accelerate the generation process. We identify the key difficulty of diffusion model quantization as the changing output distributions of noise estimation networks over multiple time steps and the bimodal activation distribution of the shortcut layers within the noise estimation network. We tackle these challenges with timestep-aware calibration and split shortcut quantization in this work. Experimental results show that our proposed method is able to quantize full-precision unconditional diffusion models into 4-bit while maintaining comparable performance (small FID change of at most 2.34 compared to >100 for traditional PTQ) in a training-free manner. Our approach can also be applied to text-guided image generation, where we can run stable diffusion in 4-bit weights with high generation quality for the first time.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2302.04304v3.pdf",
+    "url": "http://arxiv.org/abs/2302.04304v3",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation",
+    "authors": [
+      "Lingxiao Zhao",
+      "Xueying Ding",
+      "Leman Akoglu"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2402.03687v3",
+    "doi": null,
+    "abstract": "Graph generation has been dominated by autoregressive models due to their simplicity and effectiveness, despite their sensitivity to ordering. Yet diffusion models have garnered increasing attention, as they offer comparable performance while being permutation-invariant. Current graph diffusion models generate graphs in a one-shot fashion, but they require extra features and thousands of denoising steps to achieve optimal performance. We introduce PARD, a Permutation-invariant Auto Regressive Diffusion model that integrates diffusion models with autoregressive methods. PARD harnesses the effectiveness and efficiency of the autoregressive model while maintaining permutation invariance without ordering sensitivity. Specifically, we show that contrary to sets, elements in a graph are not entirely unordered and there is a unique partial order for nodes and edges. With this partial order, PARD generates a graph in a block-by-block, autoregressive fashion, where each block's probability is conditionally modeled by a shared diffusion model with an equivariant network. To ensure efficiency while being expressive, we further propose a higher-order graph transformer, which integrates transformer with PPGN. Like GPT, we extend the higher-order graph transformer to support parallel training of all blocks. Without any extra features, PARD achieves state-of-the-art performance on molecular and non-molecular datasets, and scales to large datasets like MOSES containing 1.9M molecules. Pard is open-sourced at https://github.com/LingxiaoShawn/Pard.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2402.03687v3.pdf",
+    "url": "http://arxiv.org/abs/2402.03687v3",
+    "_source": "arxiv"
+  },
+  {
+    "title": "A Tutorial on Diffusion Theory: From Differential Equations to Diffusion Models",
+    "authors": [
+      "Jiayi Fu",
+      "Yuxia Wang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "arxiv": "2605.22586v3",
+    "doi": null,
+    "abstract": "Diffusion models have emerged as a dominant framework for generative modeling, but their mathematical foundations are often presented separately through diffusion probabilistic models, score-based modeling, stochastic differential equations, and numerical sampling methods. We write this tutorial to provide a unified and self-contained account of these viewpoints from the perspective of differential equations. Starting from a conditional Gaussian noising process, we derive ordinary differential equation (ODE) and stochastic differential equation (SDE) representations, pass to the corresponding marginal forward dynamics, and then obtain the reverse-time SDE and probability-flow ODE that make generation possible. We show that the central unknown quantity in reverse sampling is the marginal score, explain how score matching becomes the standard denoising objective under a noise-prediction parameterization, and discuss practical reverse-time sampling and guidance. We further place DDPM, DDIM, flow matching, and score-based SDEs in a common framework, and conclude with diffusion language models in continuous embedding space together with a brief discussion of discrete masked-token diffusion. The tutorial is intended as a bridge between the analytical foundations of diffusion processes and the modern generative algorithms built upon them.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2605.22586v3.pdf",
+    "url": "http://arxiv.org/abs/2605.22586v3",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Smooth Diffusion: Crafting Smooth Latent Spaces in Diffusion Models",
+    "authors": [
+      "Jiayi Guo",
+      "Xingqian Xu",
+      "Yifan Pu",
+      "Zanlin Ni",
+      "Chaofei Wang",
+      "Manushree Vasu",
+      "Shiji Song",
+      "Gao Huang",
+      "Humphrey Shi"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2312.04410v1",
+    "doi": null,
+    "abstract": "Recently, diffusion models have made remarkable progress in text-to-image (T2I) generation, synthesizing images with high fidelity and diverse contents. Despite this advancement, latent space smoothness within diffusion models remains largely unexplored. Smooth latent spaces ensure that a perturbation on an input latent corresponds to a steady change in the output image. This property proves beneficial in downstream tasks, including image interpolation, inversion, and editing. In this work, we expose the non-smoothness of diffusion latent spaces by observing noticeable visual fluctuations resulting from minor latent variations. To tackle this issue, we propose Smooth Diffusion, a new category of diffusion models that can be simultaneously high-performing and smooth. Specifically, we introduce Step-wise Variation Regularization to enforce the proportion between the variations of an arbitrary input latent and that of the output image is a constant at any diffusion training step. In addition, we devise an interpolation standard deviation (ISTD) metric to effectively assess the latent space smoothness of a diffusion model. Extensive quantitative and qualitative experiments demonstrate that Smooth Diffusion stands out as a more desirable solution not only in T2I generation but also across various downstream tasks. Smooth Diffusion is implemented as a plug-and-play Smooth-LoRA to work with various community models. Code is available at https://github.com/SHI-Labs/Smooth-Diffusion.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2312.04410v1.pdf",
+    "url": "http://arxiv.org/abs/2312.04410v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+    "authors": [
+      "Boyuan Chen",
+      "Diego Marti Monso",
+      "Yilun Du",
+      "Max Simchowitz",
+      "Russ Tedrake",
+      "Vincent Sitzmann"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2407.01392v4",
+    "doi": null,
+    "abstract": "This paper presents Diffusion Forcing, a new training paradigm where a diffusion model is trained to denoise a set of tokens with independent per-token noise levels. We apply Diffusion Forcing to sequence generative modeling by training a causal next-token prediction model to generate one or several future tokens without fully diffusing past ones. Our approach is shown to combine the strengths of next-token prediction models, such as variable-length generation, with the strengths of full-sequence diffusion models, such as the ability to guide sampling to desirable trajectories. Our method offers a range of additional capabilities, such as (1) rolling-out sequences of continuous tokens, such as video, with lengths past the training horizon, where baselines diverge and (2) new sampling and guiding schemes that uniquely profit from Diffusion Forcing's variable-horizon and causal architecture, and which lead to marked performance gains in decision-making and planning tasks. In addition to its empirical success, our method is proven to optimize a variational lower bound on the likelihoods of all subsequences of tokens drawn from the true joint distribution. Project website: https://boyuan.space/diffusion-forcing",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2407.01392v4.pdf",
+    "url": "http://arxiv.org/abs/2407.01392v4",
+    "_source": "arxiv"
+  }
+]

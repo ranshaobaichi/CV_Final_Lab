@@ -22,6 +22,9 @@ arXiv论文，
 
 | 选题 | 路径 | 状态 |
 |------|------|------|
-| 计算机视觉中的机器遗忘（中文综述） | [`topics/machine-unlearning-cv/survey_zh.md`](topics/machine-unlearning-cv/survey_zh.md) | **中文 Markdown 工作稿** |
-| 核心参考文献 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
+| 计算机视觉中的机器遗忘（中文综述 v2） | [`topics/machine-unlearning-cv/survey_zh.md`](topics/machine-unlearning-cv/survey_zh.md) | skill 修复版 |
+| 写作计划与证据映射 | [`topics/machine-unlearning-cv/plan/`](topics/machine-unlearning-cv/plan/) | 已建立 |
+| 文献检索与 BibTeX | [`topics/machine-unlearning-cv/refs/`](topics/machine-unlearning-cv/refs/) | 已建立 |
+| 核心参考文献导读 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
 | 英文版 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | 转 LaTeX 时再撰写 |
+| 科研写作 skill | [`research-writing-skill/`](research-writing-skill/) | 已接入 |
