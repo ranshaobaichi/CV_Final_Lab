@@ -26,5 +26,6 @@ arXiv论文，
 | 写作计划与证据映射 | [`topics/machine-unlearning-cv/plan/`](topics/machine-unlearning-cv/plan/) | 已建立 |
 | 文献检索与 BibTeX | [`topics/machine-unlearning-cv/refs/`](topics/machine-unlearning-cv/refs/) | 已建立 |
 | 核心参考文献导读 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
+| 图表（图1 分类树 + 图2 时间线） | [`topics/machine-unlearning-cv/figures/`](topics/machine-unlearning-cv/figures/) | Mermaid + PNG |
 | 英文版 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | 转 LaTeX 时再撰写 |
 | 科研写作 skill | [`research-writing-skill/`](research-writing-skill/) | 已接入 |
