@@ -1,12 +1,35 @@
-# Machine Unlearning in Computer Vision: Methods, Benchmarks, and Robustness
+% CVPR-style survey (course final report)
+% Template style from https://github.com/cvpr-org/author-kit
+\documentclass[10pt,twocolumn,letterpaper]{article}
 
-## Abstract
+\usepackage[pagenumbers]{cvpr}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{xspace}
 
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+\def\confName{CVPR}
+\def\confYear{2026}
+
+\title{Machine Unlearning in Computer Vision:\\ Methods, Benchmarks, and Robustness}
+
+\author{
+Student Author\\
+Computer Vision Course Final Survey\\
+{\tt\small anonymous@university.edu}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
 Machine unlearning (MU) aims to remove the influence of specific data points, classes, or semantic concepts from trained models without full retraining. In computer vision, this capability is increasingly required for privacy compliance, copyright protection, and safety alignment across face recognition, medical imaging, text-to-image generation, and vision-language assistants. This survey organizes 2020--2026 vision unlearning research along four axes---targets, strategies, architectures, and evaluation---covering discriminative classifiers (CNNs and Vision Transformers), diffusion models, and vision-language models (VLMs). We highlight a fundamental gap between discriminative parameter-space forgetting and generative concept erasure in entangled latent spaces, and show that many methods achieve only superficial suppression under adversarial probing. We conclude with open challenges toward verifiable and robust vision unlearning.
+\end{abstract}
 
-**Keywords:** machine unlearning, computer vision, concept erasure, diffusion models, vision-language models, robustness
-
-## 1. Introduction
+\section{Introduction}
 
 Computer vision is a primary battlefield for machine unlearning. Unlike text-only models, vision systems store information across spatial features, cross-modal alignments, and generative latents. Regulations such as GDPR and CCPA motivate deletion of identities, medical records, and copyrighted styles from deployed models, while generative systems must suppress NSFW content and proprietary characters~\cite{bourtoule2021,safavigerdini2026}.
 
@@ -16,48 +39,69 @@ Given a model $f_\theta$ trained on $\mathcal{D}$, forget set $\mathcal{D}_f$, a
 
 This survey focuses on vision work from CVPR, ICCV, NeurIPS, S\&P, WACV, and arXiv (2020--2026). Pure LLM unlearning is included only when adapted to VLMs. Relative to~\cite{safavigerdini2026}, we emphasize evaluation and robustness; relative to general MU surveys~\cite{zhang2023review}, we restrict scope to vision architectures.
 
-## 2. Taxonomy and Architectures
+\section{Taxonomy and Architectures}
 
 Following~\cite{safavigerdini2026}, we use a four-axis taxonomy (Fig.~\ref{fig:taxonomy}): targets (sample/class/concept), strategies (data reorganization, model editing, inference intervention), architectures (discriminative, generative, multimodal), and evaluation (forgetting, utility, privacy, efficiency).
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{taxonomy-tree.png}
+\caption{Four-axis taxonomy of machine unlearning for vision.}
+\label{fig:taxonomy}
+\end{figure}
+
 Discriminative models operate on decision boundaries and feature geometry; Vision Transformers often retain higher utility after unlearning than CNNs~\cite{zhao2026vit}. Diffusion models encode concepts largely in cross-attention, motivating ESD~\cite{gandikota2023esd} and UCE~\cite{gandikota2024uce}. VLMs entangle vision and language encoders with a fusion decoder; suppressing text outputs alone does not guarantee removal of residual visual associations~\cite{lin2026vlm}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{research-timeline.png}
+\caption{Research timeline of vision machine unlearning (2020--2026).}
+\label{fig:timeline}
+\end{figure*}
 
 Fig.~\ref{fig:timeline} summarizes the 2020--2026 research timeline from formalization to benchmarks and robustness studies.
 
-\section{3. Discriminative Vision Unlearning}
+\section{Discriminative Vision Unlearning}
 
 Exact shard-based methods follow~\cite{bourtoule2021}. For large classifiers, approximate methods dominate. SCRUB~\cite{kurmanji2023scrub} combines gradient ascent on the forget set with retain-set distillation. Projected-gradient and boundary-manipulation methods further reduce interference with retained classes. Zhao~\etal~\cite{zhao2026vit} show that CNN-designed unlearning algorithms transfer poorly to ViTs, motivating architecture-aware protocols. Marasco~\etal~\cite{marasco2026} argue that unlearning should be treated as a lifecycle capability rather than a one-shot patch.
 
 Representation-level approaches (e.g., Neural Collapse projections surveyed in~\cite{safavigerdini2026}) move beyond logit-only forgetting toward irreversible feature erasure, though formal guarantees remain limited outside closed-set classification. Instance-level facial benchmarks further require forgetting identities while preserving non-identity attributes~\cite{safavigerdini2026}.
 
-\section{4. Concept Erasure in Diffusion Models}
+\section{Concept Erasure in Diffusion Models}
 
 ESD~\cite{gandikota2023esd} steers noise prediction of target concepts toward neutral prompts and established cross-attention as the primary editing locus. UCE~\cite{gandikota2024uce} formulates closed-form cross-attention weight updates, enabling fast deployment. MACE~\cite{lu2024mace} scales erasure to about one hundred concepts via closed-form refinement and per-concept LoRA adapters. Fine-tuning is typically stronger but costly; closed-form and training-free routes are efficient yet more fragile under attack~\cite{moon2025hub}.
 
 Narrow concepts (celebrities, IP characters) are easier to localize than broad categories such as NSFW. Erasing narrow concepts may also degrade shared super-types~\cite{safavigerdini2026}. HUB~\cite{moon2025hub} evaluates faithfulness, alignment, pinpoint-ness, multilingual robustness, attack robustness, and efficiency, finding that no single method leads on all axes.
 
-\section{5. Vision-Language Model Unlearning}
+\section{Vision-Language Model Unlearning}
 
 Lin~\etal~\cite{lin2026vlm} categorize VLM unlearning into full-parameter finetuning, vision-encoder finetuning, selective-parameter updates, and inference-time intervention. Vision-encoder updates are often effective for discriminative probes, suggesting that visual concepts are heavily stored in the encoder. Cross-modal decoupling objectives attempt to break image--text associations during training~\cite{lin2026vlm}.
 
 A model may refuse a direct query yet recover forgotten knowledge under paraphrases, contextual cues, or in-/out-of-distribution retraining. Thus many methods hide rather than erase multimodal knowledge~\cite{lin2026vlm}.
 
-\section{6. Robustness, Attacks, and Defenses}
+\section{Robustness, Attacks, and Defenses}
 
 A central consensus is the distinction between output suppression and knowledge erasure. Concept revival after unrelated finetuning~\cite{safavigerdini2026} and VLM reactivation attacks~\cite{lin2026vlm} show that standard prompts overestimate forgetting. AdvUnlearn~\cite{zhang2024advunlearn} injects adversarial prompts during training; other defenses use semantic prompt expansion or inference-time latent perturbation. Standardized attack protocols in HUB~\cite{moon2025hub} are essential for cumulative progress.
 
 Average-case membership inference is an inadequate sole verifier of unlearning~\cite{safavigerdini2026}. Stronger feature-level and worst-case metrics are needed to support legal ``right to be forgotten'' claims.
 
-\section{7. Benchmarks and Evaluation}
+\section{Benchmarks and Evaluation}
 
 Discriminative evaluation has moved from CIFAR class deletion toward instance-level and architecture-aware protocols such as ViT-MU~\cite{zhao2026vit}. Generative evaluation is anchored by HUB~\cite{moon2025hub} and related suites covering continual erasure and multimodal triggers. Effective reporting should balance forgetting efficacy, utility retention, privacy guarantees, and efficiency rather than maximize a single score.
 
-\section{8. Discussion and Open Challenges}
+\section{Discussion and Open Challenges}
 
 Contributions of the past six years include formal MU foundations~\cite{bourtoule2021}, a coherent vision taxonomy~\cite{safavigerdini2026}, scalable concept erasure~\cite{gandikota2023esd,gandikota2024uce,lu2024mace}, VLM robustness analysis~\cite{lin2026vlm}, and public benchmarks~\cite{moon2025hub,zhao2026vit}.
 
 Gaps remain: generative/multimodal unlearning lacks strong formal guarantees; continual deletion requests induce cumulative retain--forget conflicts~\cite{marasco2026}; and legal notions of irreversibility still lack technical adjudication standards. Promising directions include representation-level geometric forgetting, adversarially trained erasure~\cite{zhang2024advunlearn}, and unified lifecycle frameworks that couple methods, benchmarks, and compliance evidence~\cite{marasco2026}.
 
-\section{9. Conclusion}
+\section{Conclusion}
 
 Vision machine unlearning spans discriminative, generative, and multimodal systems with distinct failure modes. Discriminative work seeks verifiable representation-level deletion; generative erasure must confront semantic entanglement and revival; VLMs must resist cross-modal reactivation. Benchmarks such as HUB and ViT-MU provide shared infrastructure, yet no method is robust across all evaluation axes. Building verifiable, auditable, and attack-resilient vision unlearning remains a pressing open problem at the intersection of computer vision and AI safety.
+
+{\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{references}
+}
+
+\end{document}

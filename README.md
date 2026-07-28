@@ -27,5 +27,6 @@ arXiv论文，
 | 文献检索与 BibTeX | [`topics/machine-unlearning-cv/refs/`](topics/machine-unlearning-cv/refs/) | 已建立 |
 | 核心参考文献导读 | [`topics/machine-unlearning-cv/references.md`](topics/machine-unlearning-cv/references.md) | 已整理 |
 | 图表（图1 分类树 + 图2 时间线） | [`topics/machine-unlearning-cv/figures/`](topics/machine-unlearning-cv/figures/) | Mermaid + PNG |
-| 英文版 | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | 转 LaTeX 时再撰写 |
+| 英文版 Markdown | [`topics/machine-unlearning-cv/survey.md`](topics/machine-unlearning-cv/survey.md) | 已同步 |
+| CVPR LaTeX + 编译说明 | [`topics/machine-unlearning-cv/latex/`](topics/machine-unlearning-cv/latex/) | `main.tex` + bib |
 | 科研写作 skill | [`research-writing-skill/`](research-writing-skill/) | 已接入 |
