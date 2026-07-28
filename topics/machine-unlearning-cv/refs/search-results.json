@@ -1,0 +1,572 @@
+[
+  {
+    "title": "Machine Learning in Computer Vision",
+    "authors": [
+      "Asharul Islam Khan",
+      "Salim Al-Habsi"
+    ],
+    "year": 2020,
+    "journal": "Procedia Computer Science",
+    "doi": "10.1016/j.procs.2020.03.355",
+    "abstract": null,
+    "citations": 182,
+    "url": "https://doi.org/10.1016/j.procs.2020.03.355",
+    "_source": "crossref"
+  },
+  {
+    "title": "A Review on Machine Unlearning",
+    "authors": [
+      "Haibo Zhang",
+      "Toru Nakamura",
+      "Takamasa Isohara",
+      "Kouichi Sakurai"
+    ],
+    "year": 2023,
+    "journal": "SN Computer Science",
+    "doi": "10.1007/s42979-023-01767-4",
+    "abstract": null,
+    "citations": 71,
+    "url": "https://doi.org/10.1007/s42979-023-01767-4",
+    "_source": "crossref"
+  },
+  {
+    "title": "Learn to Unlearn: Insights Into Machine Unlearning",
+    "authors": [
+      "Youyang Qu",
+      "Xin Yuan",
+      "Ming Ding",
+      "Wei Ni",
+      "Thierry Rakotoarivelo",
+      "David Smith"
+    ],
+    "year": 2024,
+    "journal": "Computer",
+    "doi": "10.1109/mc.2023.3333319",
+    "abstract": null,
+    "citations": 26,
+    "url": "https://doi.org/10.1109/mc.2023.3333319",
+    "_source": "crossref"
+  },
+  {
+    "title": "Algorithms that forget: Machine unlearning and the right to erasure",
+    "authors": [
+      "Bjørn Aslak Juliussen",
+      "Jon Petter Rui",
+      "Dag Johansen"
+    ],
+    "year": 2023,
+    "journal": "Computer Law &amp; Security Review",
+    "doi": "10.1016/j.clsr.2023.105885",
+    "abstract": null,
+    "citations": 20,
+    "url": "https://doi.org/10.1016/j.clsr.2023.105885",
+    "_source": "crossref"
+  },
+  {
+    "title": "The Frontier of Data Erasure: A Survey on Machine Unlearning for Large Language Models",
+    "authors": [
+      "Youyang Qu",
+      "Ming Ding",
+      "Nan Sun",
+      "Kanchana Thilakarathna",
+      "Tianqing Zhu",
+      "Dusit Niyato"
+    ],
+    "year": 2025,
+    "journal": "Computer",
+    "doi": "10.1109/mc.2024.3405397",
+    "abstract": null,
+    "citations": 20,
+    "url": "https://doi.org/10.1109/mc.2024.3405397",
+    "_source": "crossref"
+  },
+  {
+    "title": "Visual complexity of urban streetscapes: human vs computer vision",
+    "authors": [
+      "Pietro Florio",
+      "Thomas Leduc",
+      "Yannick Sutter",
+      "Roland Brémond"
+    ],
+    "year": 2024,
+    "journal": "Machine Vision and Applications",
+    "doi": "10.1007/s00138-023-01484-1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Understanding visual complexity of urban environments may improve urban design strategies and limit visual pollution due to advertising, road signage, telecommunication systems and machinery. This paper aims at quantifying visual complexity specifically in urban streetscapes, by submitting a collection of geo-referenced photographs to a group of more than 450 internet users. The average complexity ranking issued from this survey was compared with a set of computer vision predictions, attempting to find the optimal match. Overall, a computer vision indicator matching comprehensively the survey outcome did not clearly emerge from the analysis, but a set of perceptual hypotheses demonstrated that some categories of stimuli are more relevant. The results show how images with contrasting colour regions and sharp edges are more prone to drive the feeling of high complexity.</jats:p>",
+    "citations": 8,
+    "url": "https://doi.org/10.1007/s00138-023-01484-1",
+    "_source": "crossref"
+  },
+  {
+    "title": "AGU: Adaptive gradient unlearning for efficient machine unlearning",
+    "authors": [
+      "Naglaa E. Ghannam",
+      "Esraa A. Mahareek"
+    ],
+    "year": 2025,
+    "journal": "Intelligent Systems with Applications",
+    "doi": "10.1016/j.iswa.2025.200592",
+    "abstract": null,
+    "citations": 2,
+    "url": "https://doi.org/10.1016/j.iswa.2025.200592",
+    "_source": "crossref"
+  },
+  {
+    "title": "ACD-U: Asymmetric co-teaching with machine unlearning for robust learning with noisy labels",
+    "authors": [
+      "Reo Fukunaga",
+      "Soh Yoshida",
+      "Mitsuji Muneyasu"
+    ],
+    "year": 2026,
+    "journal": "Image and Vision Computing",
+    "doi": "10.1016/j.imavis.2026.106020",
+    "abstract": null,
+    "citations": 1,
+    "url": "https://doi.org/10.1016/j.imavis.2026.106020",
+    "_source": "crossref"
+  },
+  {
+    "title": "Vershachi Unlearning: A Framework for Machine Unlearning",
+    "authors": [
+      "Mr. Veerasagar S S"
+    ],
+    "year": 2025,
+    "journal": "International Journal for Research in Applied Science and Engineering Technology",
+    "doi": "10.22214/ijraset.2025.67269",
+    "abstract": "<jats:p>In the contemporary landscape of the digital world where industry relies on the technology of artificial intelligence\nwhich fundamentally depends on the concepts of machine learning. Machine learning is a field where it utilizes the immense\namount of data and then feeds this data into a structure called models. This data “trains” this model. Abundant data is used to\ntrain these models, for this data to be as accurate as it can be optimally. However, reliance on this abundant data exposes us to a\nsignificant risk to user privacy which is a matter of concern. It directly challenges the existence of “right to be forgotten”. There\nis an intricate relation between the model and the data with which it is trained. Traditional data management systems can easily\nerase user information from databases, but the scenario becomes considerably complex with machine learning models. This\ngives rise to the whole new concept called machine unlearning. This project addresses this challenge by developing a standalone\ntool and API specifically designed to facilitate the forgetting of data by machine learning models. Our objective is to pioneer a\npractical approach to enhance user privacy in the context of machine learning technologies. By creating an efficient and reliable\nsolution, we aim to bridge the gap between data privacy rights and the intricate workings of machine learning models. Through\nthis endeavor, we contribute to the evolving discourse on privacy, data security, and ethical AI practices in the digital age.</jats:p>",
+    "citations": 1,
+    "url": "https://doi.org/10.22214/ijraset.2025.67269",
+    "_source": "crossref"
+  },
+  {
+    "title": "Revisiting the machine unlearning ecosystem in vision: From afterthought to a lifecycle perspective",
+    "authors": [
+      "Emanuela Marasco",
+      "Matthew Hicks",
+      "Bart Slowik",
+      "Thirimachos Bourlai",
+      "Arun Ross"
+    ],
+    "year": 2026,
+    "journal": "Image and Vision Computing",
+    "doi": "10.1016/j.imavis.2026.106059",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/j.imavis.2026.106059",
+    "_source": "crossref"
+  },
+  {
+    "title": "Machine Unlearning for Industrial AI Models",
+    "authors": [
+      "Maryam Saadi",
+      "Vincent Bernier",
+      "Gregory Zacharewicz",
+      "Nicolas Daclin"
+    ],
+    "year": 2026,
+    "journal": "Procedia Computer Science",
+    "doi": "10.1016/j.procs.2026.02.359",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/j.procs.2026.02.359",
+    "_source": "crossref"
+  },
+  {
+    "title": "Unlearning under siege: Robustness risks of certified machine unlearning",
+    "authors": [
+      "Faiz Ahmad"
+    ],
+    "year": 2026,
+    "journal": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2026.134370",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/j.neucom.2026.134370",
+    "_source": "crossref"
+  },
+  {
+    "title": "Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods",
+    "authors": [
+      "Jaeung Lee",
+      "Suhyeon Yu",
+      "Yurim Jang",
+      "Simon S. Woo",
+      "Jaemin Jo"
+    ],
+    "year": 2026,
+    "journal": "IEEE Transactions on Visualization and Computer Graphics",
+    "doi": "10.1109/tvcg.2026.3658325",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1109/tvcg.2026.3658325",
+    "_source": "crossref"
+  },
+  {
+    "title": "Editor’s Note: Special Issue from Winter Conference on Applications of Computer Vision - WACV 2023",
+    "authors": [],
+    "year": 2023,
+    "journal": "Machine Vision and Applications",
+    "doi": "10.1007/s00138-023-01441-y",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1007/s00138-023-01441-y",
+    "_source": "crossref"
+  },
+  {
+    "title": "Fortified Concept Forgetting for text-to-image generative models by machine unlearning on CLIP",
+    "authors": [
+      "Jiahao Fan",
+      "Xu Ma",
+      "Changyu Dong",
+      "Honghao Chu",
+      "Bingqing Yang"
+    ],
+    "year": 2026,
+    "journal": "Computer Standards &amp; Interfaces",
+    "doi": "10.1016/j.csi.2026.104142",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/j.csi.2026.104142",
+    "_source": "crossref"
+  },
+  {
+    "title": "Uc-\n                    <scp>PrUn</scp>\n                    : Uncertainty-Calibrated Machine Unlearning using Vision–Language Models for Clinical Decision Support",
+    "authors": [
+      "Farhan Sheth",
+      "Mohd Mujtaba Akhtar",
+      "Muskaan Singh",
+      "Alexander Davey"
+    ],
+    "year": 2026,
+    "journal": "ACM Transactions on Computing for Healthcare",
+    "doi": "10.1145/3820497",
+    "abstract": "<jats:p>\n                    In this study, we introduce\n                    <jats:sc>Uc-PrUn</jats:sc>\n                    , a principled framework designed to improve the reliability of Vision–Language Models (VLMs) in clinical decision-support systems. Recognizing the critical importance of uncertainty estimation in high-stakes domains, we introduce a two-stage methodology; the first stage focuses on Bayesian-inspired zero-shot uncertainty quantification using Monte Carlo dropout, while the second stage introduces a novel uncertainty-aware machine unlearning strategy, termed\n                    <jats:sc>Uc-PrUn</jats:sc>\n                    . Leveraging the Harvard-FairVLMed dataset, which comprises paired SLO fundus images and clinical notes for glaucoma detection, we systematically evaluate various VLMs to quantify epistemic uncertainty and identify high-variance training samples. Our pruning and unlearning mechanism selectively removes uncertain samples to enhance model calibration and improve downstream performance. Experimental results demonstrate that the\n                    <jats:sc>Uc-PrUn</jats:sc>\n                    approach not only reduces predictive uncertainty but also yields consistent gains in accuracy and F\n                    <jats:sub>1</jats:sub>\n                    -scores across multiple Vision–Language Models. These findings support incorporating uncertainty-aware pruning mechanisms in medical AI pipelines where model reliability is essential.\n                  </jats:p>",
+    "citations": 0,
+    "url": "https://doi.org/10.1145/3820497",
+    "_source": "crossref"
+  },
+  {
+    "title": "Machine unlearning",
+    "authors": [
+      "Shubham Agarwal"
+    ],
+    "year": 2023,
+    "journal": "New Scientist",
+    "doi": "10.1016/s0262-4079(23)02059-6",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.1016/s0262-4079(23)02059-6",
+    "_source": "crossref"
+  },
+  {
+    "title": "Machine Unlearning: A Survey of Methods, Metrics, and Challenges in Data Removal for AI Systems",
+    "authors": [
+      "Vivek Wawge"
+    ],
+    "year": 2025,
+    "journal": "International Journal of Science and Research (IJSR)",
+    "doi": "10.21275/sr251004215417",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.21275/sr251004215417",
+    "_source": "crossref"
+  },
+  {
+    "title": "Human Machine Interface With Computer Vision",
+    "authors": [],
+    "year": 2024,
+    "journal": "Nanotechnology Perceptions",
+    "doi": "10.62441/nano-ntp.v20is11.129",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.62441/nano-ntp.v20is11.129",
+    "_source": "crossref"
+  },
+  {
+    "title": "MACHINE UNLEARNING FOR BIAS REMOVAL",
+    "authors": [],
+    "year": 2025,
+    "journal": "International Research Journal of Modernization in Engineering Technology &amp; Science",
+    "doi": "10.56726/irjmets86853",
+    "abstract": null,
+    "citations": 0,
+    "url": "https://doi.org/10.56726/irjmets86853",
+    "_source": "crossref"
+  },
+  {
+    "title": "Unleashing Uncertainty: Efficient Machine Unlearning for Generative AI",
+    "authors": [
+      "Christoforos N. Spartalis",
+      "Theodoros Semertzidis",
+      "Petros Daras",
+      "Efstratios Gavves"
+    ],
+    "year": 2025,
+    "journal": "arXiv",
+    "arxiv": "2508.20773v1",
+    "doi": null,
+    "abstract": "We introduce SAFEMax, a novel method for Machine Unlearning in diffusion models. Grounded in information-theoretic principles, SAFEMax maximizes the entropy in generated images, causing the model to generate Gaussian noise when conditioned on impermissible classes by ultimately halting its denoising process. Also, our method controls the balance between forgetting and retention by selectively focusing on the early diffusion steps, where class-specific information is prominent. Our results demonstrate the effectiveness of SAFEMax and highlight its substantial efficiency gains over state-of-the-art methods.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.20773v1.pdf",
+    "url": "http://arxiv.org/abs/2508.20773v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+    "authors": [
+      "Malika Nisal Ratnayake",
+      "Don Chathurika Amarathunga",
+      "Asaduz Zaman",
+      "Adrian G. Dyer",
+      "Alan Dorin"
+    ],
+    "year": 2022,
+    "journal": "arXiv",
+    "arxiv": "2205.04675v2",
+    "doi": "10.1007/s11263-022-01715-4",
+    "abstract": "Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it generates may provide a detailed understanding of insect distributions and facilitate fine-grained analysis sufficient to predict their pollination efficacy and underpin precision pollination. Current computer vision facilitated insect tracking in complex outdoor environments is restricted in spatial coverage and often constrained to a single insect species. This limits its relevance to agriculture. Therefore, in this article we introduce a novel system to facilitate markerless data capture for insect counting, insect motion tracking, behaviour analysis and pollination prediction across large agricultural areas. Our system is comprised of edge computing multi-point video recording, offline automated multispecies insect counting, tracking and behavioural analysis. We implement and test our system on a commercial berry farm to demonstrate its capabilities. Our system successfully tracked four insect varieties, at nine monitoring stations within polytunnels, obtaining an F-score above 0.8 for each variety. The system enabled calculation of key metrics to assess the relative pollination impact of each insect variety. With this technological advancement, detailed, ongoing data collection for precision pollination becomes achievable. This is important to inform growers and apiarists managing crop pollination, as it allows data-driven decisions to be made to improve food production and food security.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2205.04675v2.pdf",
+    "url": "http://arxiv.org/abs/2205.04675v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Easy Data Unlearning Bench",
+    "authors": [
+      "Roy Rinberg",
+      "Pol Puigdemont",
+      "Martin Pawelczyk",
+      "Volkan Cevher"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "arxiv": "2602.16400v1",
+    "doi": null,
+    "abstract": "Evaluating machine unlearning methods remains technically challenging, with recent benchmarks requiring complex setups and significant engineering overhead. We introduce a unified and extensible benchmarking suite that simplifies the evaluation of unlearning algorithms using the KLoM (KL divergence of Margins) metric. Our framework provides precomputed model ensembles, oracle outputs, and streamlined infrastructure for running evaluations out of the box. By standardizing setup and metrics, it enables reproducible, scalable, and fair comparison across unlearning methods. We aim for this benchmark to serve as a practical foundation for accelerating research and promoting best practices in machine unlearning. Our code and data are publicly available.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2602.16400v1.pdf",
+    "url": "http://arxiv.org/abs/2602.16400v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "On the Impossibility of Retrain Equivalence in Machine Unlearning",
+    "authors": [
+      "Jiatong Yu",
+      "Yinghui He",
+      "Anirudh Goyal",
+      "Sanjeev Arora"
+    ],
+    "year": 2025,
+    "journal": "arXiv",
+    "arxiv": "2510.16629v2",
+    "doi": null,
+    "abstract": "Machine unlearning seeks to selectively remove the \"influence\" of specific training data on a model's outputs. The ideal goal is Retrain Equivalence--behavior identical to a model trained from scratch on only the retained data. This goal was formulated for models trained on i.i.d. data batches, but modern pipelines often involve multi-stage training, with each stage having a distinct data distribution and objective. Examples include LLM fine-tuning for alignment, reasoning ability, etc. Our study shows via theory and experiments that this shift to multi-stage training introduces a fundamental barrier for machine unlearning. The theory indicates that the outcome of local unlearning--methods that only use gradients computed on the forget set--is path-dependent. That is, a model's behavior during unlearning is influenced by the order of its training stages during learning, making it impossible for path-oblivious algorithms to universally achieve Retrain Equivalence. We empirically demonstrate the same phenomenon in LLM post-training across Llama and Qwen models (1B to 14B) with gradient ascent, NPO, and SimNPO local unlearning algorithms. Models fine-tuned via different orderings of identical training stages diverge in behavior during unlearning, with the degradation in GSM8K accuracy after unlearning varying by over 20% across paths. We also observe that some learning paths consistently produce models that unlearn slowly. During unlearning, whether the probability mass gets squeezed into paraphrasing or alternative concepts is also path-dependent. These results consistently show that Retrain Equivalence is an ill-posed target for local unlearning algorithms, so long as the target models are trained in stages. In situations where access to models' training histories is hard, the current work calls for rethinking the definition and desiderata of machine unlearning.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.16629v2.pdf",
+    "url": "http://arxiv.org/abs/2510.16629v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Global Adaptive Filtering Layer for Computer Vision",
+    "authors": [
+      "Viktor Shipitsin",
+      "Iaroslav Bespalov",
+      "Dmitry V. Dylov"
+    ],
+    "year": 2020,
+    "journal": "arXiv",
+    "arxiv": "2010.01177v4",
+    "doi": "10.1016/j.cviu.2022.103519",
+    "abstract": "We devise a universal adaptive neural layer to \"learn\" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Remarkably, such a simple add-on layer dramatically improves the performance of the main network regardless of its design. We observe that the light networks gain a noticeable boost in the performance metrics; whereas, the training of the heavy ones converges faster when our adaptive layer is allowed to \"learn\" alongside the main architecture. We validate the idea in four classical computer vision tasks: classification, segmentation, denoising, and erasing, considering popular natural and medical data benchmarks.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2010.01177v4.pdf",
+    "url": "http://arxiv.org/abs/2010.01177v4",
+    "_source": "arxiv"
+  },
+  {
+    "title": "An Information Theoretic Approach to Machine Unlearning",
+    "authors": [
+      "Jack Foster",
+      "Kyle Fogarty",
+      "Stefan Schoepf",
+      "Zack Dugue",
+      "Cengiz Öztireli",
+      "Alexandra Brintrup"
+    ],
+    "year": 2024,
+    "journal": "arXiv",
+    "arxiv": "2402.01401v4",
+    "doi": null,
+    "abstract": "To comply with AI and data regulations, the need to forget private or copyrighted information from trained machine learning models is increasingly important. The key challenge in unlearning is forgetting the necessary data in a timely manner, while preserving model performance. In this work, we address the zero-shot unlearning scenario, whereby an unlearning algorithm must be able to remove data given only a trained model and the data to be forgotten. We explore unlearning from an information theoretic perspective, connecting the influence of a sample to the information gain a model receives by observing it. From this, we derive a simple but principled zero-shot unlearning method based on the geometry of the model. Our approach takes the form of minimising the gradient of a learned function with respect to a small neighbourhood around a target forget point. This induces a smoothing effect, causing forgetting by moving the boundary of the classifier. We explore the intuition behind why this approach can jointly unlearn forget samples while preserving general model performance through a series of low-dimensional experiments. We perform extensive empirical evaluation of our method over a range of contemporary benchmarks, verifying that our method is competitive with state-of-the-art performance under the strict constraints of zero-shot unlearning. Code for the project can be found at https://github.com/jwf40/Information-Theoretic-Unlearning",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2402.01401v4.pdf",
+    "url": "http://arxiv.org/abs/2402.01401v4",
+    "_source": "arxiv"
+  },
+  {
+    "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?",
+    "authors": [
+      "David LeBauer",
+      "Max Burnette",
+      "Noah Fahlgren",
+      "Rob Kooper",
+      "Kenton McHenry",
+      "Abby Stylianou"
+    ],
+    "year": 2021,
+    "journal": "arXiv",
+    "arxiv": "2107.14072v2",
+    "doi": null,
+    "abstract": "A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The system contains co-located sensors including a stereo-pair RGB camera, a thermal imager, a laser scanner to capture 3D structure, and two hyperspectral cameras covering wavelengths of 300-2500nm. This sensor data is provided alongside over sixty types of traditional plant phenotype measurements that can be used to train new machine learning models. Associated weather and environmental measurements, information about agronomic management and experimental design, and the genomic sequences of hundreds of plant varieties have been collected and are available alongside the sensor and plant phenotype data.   Over the course of four years and ten growing seasons, the TERRA-REF system generated over 1 PB of sensor data and almost 45 million files. The subset that has been released to the public domain accounts for two seasons and about half of the total data volume. This provides an unprecedented opportunity for investigations far beyond the core biological scope of the project.   The focus of this paper is to provide the Computer Vision and Machine Learning communities an overview of the available data and some potential applications of this one of a kind data.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2107.14072v2.pdf",
+    "url": "http://arxiv.org/abs/2107.14072v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Erasure or Erosion? Evaluating Compositional Degradation in Unlearned Text-To-Image Diffusion Models",
+    "authors": [
+      "Arian Komaei Koma",
+      "Seyed Amir Kasaei",
+      "Ali Aghayari",
+      "AmirMahdi Sadeghzadeh",
+      "Mohammad Hossein Rohban"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "arxiv": "2604.04575v1",
+    "doi": null,
+    "abstract": "Post-hoc unlearning has emerged as a practical mechanism for removing undesirable concepts from large text-to-image diffusion models. However, prior work primarily evaluates unlearning through erasure success; its impact on broader generative capabilities remains poorly understood. In this work, we conduct a systematic empirical study of concept unlearning through the lens of compositional text-to-image generation. Focusing on nudity removal in Stable Diffusion 1.4, we evaluate a diverse set of state-of-the-art unlearning methods using T2I-CompBench++ and GenEval, alongside established unlearning benchmarks. Our results reveal a consistent trade-off between unlearning effectiveness and compositional integrity: methods that achieve strong erasure frequently incur substantial degradation in attribute binding, spatial reasoning, and counting. Conversely, approaches that preserve compositional structure often fail to provide robust erasure. These findings highlight limitations of current evaluation practices and underscore the need for unlearning objectives that explicitly account for semantic preservation beyond targeted suppression.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2604.04575v1.pdf",
+    "url": "http://arxiv.org/abs/2604.04575v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Fair Machine Unlearning: Data Removal while Mitigating Disparities",
+    "authors": [
+      "Alex Oesterling",
+      "Jiaqi Ma",
+      "Flavio P. Calmon",
+      "Hima Lakkaraju"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2307.14754v2",
+    "doi": null,
+    "abstract": "The Right to be Forgotten is a core principle outlined by regulatory frameworks such as the EU's General Data Protection Regulation (GDPR). This principle allows individuals to request that their personal data be deleted from deployed machine learning models. While \"forgetting\" can be naively achieved by retraining on the remaining dataset, it is computationally expensive to do to so with each new request. As such, several machine unlearning methods have been proposed as efficient alternatives to retraining. These methods aim to approximate the predictive performance of retraining, but fail to consider how unlearning impacts other properties critical to real-world applications such as fairness. In this work, we demonstrate that most efficient unlearning methods cannot accommodate popular fairness interventions, and we propose the first fair machine unlearning method that can efficiently unlearn data instances from a fair objective. We derive theoretical results which demonstrate that our method can provably unlearn data and provably maintain fairness performance. Extensive experimentation with real-world datasets highlight the efficacy of our method at unlearning data instances while preserving fairness.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2307.14754v2.pdf",
+    "url": "http://arxiv.org/abs/2307.14754v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Evaluating Machine Unlearning via Epistemic Uncertainty",
+    "authors": [
+      "Alexander Becker",
+      "Thomas Liebig"
+    ],
+    "year": 2022,
+    "journal": "arXiv",
+    "arxiv": "2208.10836v2",
+    "doi": null,
+    "abstract": "There has been a growing interest in Machine Unlearning recently, primarily due to legal requirements such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act. Thus, multiple approaches were presented to remove the influence of specific target data points from a trained model. However, when evaluating the success of unlearning, current approaches either use adversarial attacks or compare their results to the optimal solution, which usually incorporates retraining from scratch. We argue that both ways are insufficient in practice. In this work, we present an evaluation metric for Machine Unlearning algorithms based on epistemic uncertainty. This is the first definition of a general evaluation metric for Machine Unlearning to our best knowledge.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2208.10836v2.pdf",
+    "url": "http://arxiv.org/abs/2208.10836v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Align-then-Unlearn: Embedding Alignment for LLM Unlearning",
+    "authors": [
+      "Philipp Spohn",
+      "Leander Girrbach",
+      "Jessica Bader",
+      "Zeynep Akata"
+    ],
+    "year": 2025,
+    "journal": "arXiv",
+    "arxiv": "2506.13181v1",
+    "doi": null,
+    "abstract": "As large language models (LLMs) are trained on massive datasets, they have raised significant privacy and ethical concerns due to their potential to inadvertently retain sensitive information. Unlearning seeks to selectively remove specific data from trained models, such as personal information or copyrighted content. Current approaches targeting specific output sequences at the token level often fail to achieve complete forgetting and remain susceptible to prompt rephrasing. We propose Align-then-Unlearn, a novel framework that performs unlearning in the semantic embedding space rather than directly on output tokens. Align-then-Unlearn first augments the LLM with an embedding prediction module trained to anticipate future context representations. Unlearning is then achieved by fine-tuning the model to minimize the similarity between these predicted embeddings and a target embedding that represents the concept to be removed. Initial results show that Align-then-Unlearn effectively removes targeted knowledge with minimal degradation in overall model utility. These findings suggest that embedding-based unlearning offers a promising and robust approach to removing conceptual knowledge. Our code is available at https://github.com/ExplainableML/align-then-unlearn.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2506.13181v1.pdf",
+    "url": "http://arxiv.org/abs/2506.13181v1",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Towards Probabilistic Verification of Machine Unlearning",
+    "authors": [
+      "David Marco Sommer",
+      "Liwei Song",
+      "Sameer Wagh",
+      "Prateek Mittal"
+    ],
+    "year": 2020,
+    "journal": "arXiv",
+    "arxiv": "2003.04247v2",
+    "doi": null,
+    "abstract": "The right to be forgotten, also known as the right to erasure, is the right of individuals to have their data erased from an entity storing it. The status of this long held notion was legally solidified recently by the General Data Protection Regulation (GDPR) in the European Union. Consequently, there is a need for mechanisms whereby users can verify if service providers comply with their deletion requests. In this work, we take the first step in proposing a formal framework to study the design of such verification mechanisms for data deletion requests -- also known as machine unlearning -- in the context of systems that provide machine learning as a service (MLaaS). Our framework allows the rigorous quantification of any verification mechanism based on standard hypothesis testing. Furthermore, we propose a novel backdoor-based verification mechanism and demonstrate its effectiveness in certifying data deletion with high confidence, thus providing a basis for quantitatively inferring machine unlearning.   We evaluate our approach over a range of network architectures such as multi-layer perceptrons (MLP), convolutional neural networks (CNN), residual networks (ResNet), and long short-term memory (LSTM), as well as over 5 different datasets. We demonstrate that our approach has minimal effect on the ML service's accuracy but provides high confidence verification of unlearning. Our proposed mechanism works even if only a handful of users employ our system to ascertain compliance with data deletion requests. In particular, with just 5% of users participating, modifying half their data with a backdoor, and with merely 30 test queries, our verification mechanism has both false positive and false negative ratios below $10^{-3}$. We also show the effectiveness of our approach by testing it against an adaptive adversary that uses a state-of-the-art backdoor defense method.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2003.04247v2.pdf",
+    "url": "http://arxiv.org/abs/2003.04247v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Group-robust Machine Unlearning",
+    "authors": [
+      "Thomas De Min",
+      "Subhankar Roy",
+      "Stéphane Lathuilière",
+      "Elisa Ricci",
+      "Massimiliano Mancini"
+    ],
+    "year": 2025,
+    "journal": "arXiv",
+    "arxiv": "2503.09330v2",
+    "doi": null,
+    "abstract": "Machine unlearning is an emerging paradigm to remove the influence of specific training data (i.e., the forget set) from a model while preserving its knowledge of the rest of the data (i.e., the retain set). Previous approaches assume the forget data to be uniformly distributed from all training datapoints. However, if the data to unlearn is dominant in one group (e.g., ethnicity, gender), we empirically show that performance for this group degrades, leading to fairness issues. To perform unlearning while preserving fairness, this work addresses the overlooked problem of non-uniformly distributed forget sets, which we refer to as group-robust machine unlearning. We formalize the problem and present a simple and effective exact unlearning strategy that mitigates the performance loss in dominant groups via sample distribution reweighting. Moreover, we present MIU (Mutual Information-aware Machine Unlearning), the first approach for group robustness in approximate machine unlearning. MIU minimizes the mutual information between model features and group information, achieving unlearning while reducing performance degradation in the dominant group of the forget set. Additionally, MIU exploits sample distribution reweighting and mutual information calibration with the original model to preserve group robustness. We conduct experiments on three datasets and show that MIU outperforms standard methods, achieving unlearning without compromising model robustness. Source code available at https://github.com/tdemin16/group-robust_machine_unlearning",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2503.09330v2.pdf",
+    "url": "http://arxiv.org/abs/2503.09330v2",
+    "_source": "arxiv"
+  },
+  {
+    "title": "A Survey of Graph Unlearning",
+    "authors": [
+      "Anwar Said",
+      "Ngoc N. Tran",
+      "Yuying Zhao",
+      "Tyler Derr",
+      "Mudassir Shabbir",
+      "Waseem Abbas",
+      "Xenofon Koutsoukos"
+    ],
+    "year": 2023,
+    "journal": "arXiv",
+    "arxiv": "2310.02164v4",
+    "doi": null,
+    "abstract": "Graph unlearning emerges as a crucial advancement in the pursuit of responsible AI, providing the means to remove sensitive data traces from trained models, thereby upholding the \\textit{right to be forgotten}. It is evident that graph machine learning exhibits sensitivity to data privacy and adversarial attacks, necessitating the application of graph unlearning techniques to address these concerns effectively. In this comprehensive survey paper, we present the first systematic review of graph unlearning approaches, encompassing a diverse array of methodologies and offering a detailed taxonomy and up-to-date literature overview to facilitate the understanding of researchers new to this field. To ensure clarity, we provide lucid explanations of the fundamental concepts and evaluation measures used in graph unlearning, catering to a broader audience with varying levels of expertise. Delving into potential applications, we explore the versatility of graph unlearning across various domains, including but not limited to social networks, adversarial settings, recommender systems, and resource-constrained environments like the Internet of Things, illustrating its potential impact in safeguarding data privacy and enhancing AI systems' robustness. Finally, we shed light on promising research directions, encouraging further progress and innovation within the domain of graph unlearning. By laying a solid foundation and fostering continued progress, this survey seeks to inspire researchers to further advance the field of graph unlearning, thereby instilling confidence in the ethical growth of AI systems and reinforcing the responsible application of machine learning techniques in various domains.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2310.02164v4.pdf",
+    "url": "http://arxiv.org/abs/2310.02164v4",
+    "_source": "arxiv"
+  },
+  {
+    "title": "Machine Unlearning for Responsible and Adaptive AI in Education",
+    "authors": [
+      "Betty Mayeku",
+      "Sandra Hummel",
+      "Parisa Memarmoshrefi"
+    ],
+    "year": 2025,
+    "journal": "arXiv",
+    "arxiv": "2509.10590v2",
+    "doi": null,
+    "abstract": "Machine Unlearning (MU) has emerged as a promising approach to addressing persistent challenges in Machine Learning (ML) systems. By enabling the selective removal of learned data, MU introduces protective, corrective, and adaptive capabilities that are central to advancing Responsible and Adaptive AI. However, despite its growing prominence in other domains, MU remains underexplored within education, a sector uniquely characterized by sensitive learner data, dynamic environments, and the high-stakes implications of algorithmic decision-making. This paper examines the potential of MU as both a mechanism for operationalizing Responsible AI principles and a foundation for Adaptive AI in ML-driven educational systems. Drawing on a structured review of 42 peer-reviewed studies, the paper analyzes key MU mechanisms and technical variants, and how they contribute to the practical realization of Responsible and Adaptive AI. Four core intervention domains where MU demonstrates significant promise are identified: privacy protection, resilience to adversarial or corrupted data, fairness through bias mitigation, and adaptability to evolving contexts. Furthermore, MU interventions are mapped to the technical, ethical, and pedagogical challenges inherent in educational AI. This mapping illustrates the role of MU as a strategic mechanism for enhancing compliance, reinforcing ethical safeguards, and supporting adaptability by ensuring that models remain flexible, maintainable, and contextually relevant over time. As a conceptual contribution, the paper introduces MU4RAAI, a reference architecture integrating MU within Responsible and Adaptive AI frameworks for educational contexts. MU is thus positioned not merely as a data deletion process but as a transformative approach for ensuring that educational AI systems remain ethical, adaptive, and trustworthy.",
+    "citations": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.10590v2.pdf",
+    "url": "http://arxiv.org/abs/2509.10590v2",
+    "_source": "arxiv"
+  }
+]
