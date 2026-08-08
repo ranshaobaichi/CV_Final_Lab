@@ -57,4 +57,4 @@ pdflatex main.tex
 - **找不到 cvpr.sty**：确认当前目录为 `latex/`，且 `cvpr.sty` 与 `main.tex` 同目录。  
 - **引用显示为 `[?]`**：需完整跑完 `pdflatex → bibtex → pdflatex ×2`。  
 - **图片缺失**：确认两个 PNG 在 `latex/` 目录内。  
-- **页数偏多**：课程综述可接受；投稿时可删 Discussion 细节或缩小图宽。
+- **页数目标**：当前课程英文稿目标约 **6 页**（双栏 CVPR）；若超过可略缩 Discussion 或缩小图宽。
