@@ -1,0 +1,81 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bourtoule et~al.(2021)Bourtoule, Chandrasekaran, Choquette-Choo, Jia,
+  Travers, Zhang, Lie, and Papernot]{bourtoule2021}
+Lucas Bourtoule, Varun Chandrasekaran, Christopher~A. Choquette-Choo, Hengrui
+  Jia, Adelin Travers, Baiwu Zhang, David Lie, and Nicolas Papernot.
+\newblock Machine unlearning.
+\newblock In \emph{IEEE Symposium on Security and Privacy (SP)}, 2021.
+
+\bibitem[Gandikota et~al.(2023)Gandikota, Materzynska, Fiotto-Kaufman, and
+  Bau]{gandikota2023esd}
+Rohit Gandikota, Joanna Materzynska, Jaden Fiotto-Kaufman, and David Bau.
+\newblock Erasing concepts from diffusion models.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Gandikota et~al.(2024)Gandikota, Orgad, Belinkov, Materzy{\'n}ska, and
+  Bau]{gandikota2024uce}
+Rohit Gandikota, Hadas Orgad, Yonatan Belinkov, Joanna Materzy{\'n}ska, and
+  David Bau.
+\newblock Unified concept editing in diffusion models.
+\newblock In \emph{WACV}, 2024.
+
+\bibitem[Kurmanji et~al.(2023)Kurmanji, Triantafillou, Hayes, and
+  Triantafillou]{kurmanji2023scrub}
+Meghdad Kurmanji, Peter Triantafillou, Jamie Hayes, and Eleni Triantafillou.
+\newblock Towards unbounded machine unlearning.
+\newblock In \emph{NeurIPS}, 2023.
+
+\bibitem[Lin et~al.(2026)Lin, Jia, Ma, Yang, and Su]{lin2026vlm}
+Yujie Lin, Kaidi Jia, Jiayao Ma, Chengyi Yang, and Jinsong Su.
+\newblock On the robustness of machine unlearning for vision-language models.
+\newblock \emph{arXiv preprint arXiv:2605.26992}, 2026.
+
+\bibitem[Lu et~al.(2024)Lu, Wang, Li, Liu, and Kong]{lu2024mace}
+Shilin Lu, Zihan Wang, Leyang Li, Yanzhu Liu, and Adams Wai-Kin Kong.
+\newblock {MACE}: Mass concept erasure in diffusion models.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Marasco et~al.(2026)]{marasco2026}
+Emanuela Marasco et~al.
+\newblock Revisiting the machine unlearning ecosystem in vision: From
+  afterthought to a lifecycle perspective.
+\newblock \emph{Neurocomputing}, 2026.
+
+\bibitem[Moon et~al.(2025)Moon, Lee, Park, and Kim]{moon2025hub}
+Saemi Moon, Minjong Lee, Sangdon Park, and Dongwoo Kim.
+\newblock Holistic unlearning benchmark: A multi-faceted evaluation for
+  text-to-image diffusion model unlearning.
+\newblock In \emph{ICCV}, 2025.
+
+\bibitem[Safavigerdini et~al.(2026)Safavigerdini, Mogollon, Daghighi, and
+  Palaniappan]{safavigerdini2026}
+Kaveh Safavigerdini, Juan Mogollon, Amirreza Daghighi, and Kannappan
+  Palaniappan.
+\newblock Machine unlearning in computer vision: Survey of methods from
+  discriminative to generative foundation models.
+\newblock In \emph{CVPR Workshops}, 2026.
+
+\bibitem[Zhang et~al.(2023)Zhang, Nakamura, Isohara, and
+  Sakurai]{zhang2023review}
+Haibo Zhang, Toru Nakamura, Takamasa Isohara, and Kouichi Sakurai.
+\newblock A review on machine unlearning.
+\newblock \emph{SN Computer Science}, 2023.
+
+\bibitem[Zhang et~al.(2024)]{zhang2024advunlearn}
+Yimeng Zhang et~al.
+\newblock {AdvUnlearn}: Improving the robustness of concept erasure in
+  diffusion models against adversarial attacks.
+\newblock \emph{arXiv preprint}, 2024.
+
+\bibitem[Zhao et~al.(2026)]{zhao2026vit}
+Y. Zhao et~al.
+\newblock Benchmarking unlearning for vision transformers.
+\newblock \emph{arXiv preprint arXiv:2602.20114}, 2026.
+
+\end{thebibliography}
